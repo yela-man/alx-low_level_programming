@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - main block
- * description: get a random number and print number
+ * main - get a random number and print number 
+ *
  * return 0
  */
 
-int main (void)
+int main(void)
 {
 	int n;
 

@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabets
- *
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: Get a random it with 5
+ * Return: 0
  */
 int main(void)
 {

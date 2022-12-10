@@ -1,6 +1,6 @@
-#include <stdlib.h>                                                                                                                          
+#include <stdio.h>                                                                                                                          
 #include <time.h>                                                                                                                             
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: Get a random number and check its last digits,compare it with 5

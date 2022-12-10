@@ -1,11 +1,8 @@
 #include <stdio.h>                                                                                                                          
 #include <time.h>                                                                                                                             
 #include <stdlib.h>
-/**
- * main - main block
- * Description: Get a random number and check its last digits,compare it with 5
- * Return: 0
- */
+/*
+ * betty style doc for function main goes there */
 int main(void)
 {
 	int n;

@@ -2,7 +2,10 @@
 
 /**
  * print_alphabet_x10(void)
+ *
+ * Return: Always 0 (success)
  */
+
 void print_alphabet_x10(void)
 {
 	int ten;
@@ -13,5 +16,6 @@ void print_alphabet_x10(void)
 		for (la = 'a'; la <= 'z'; la++)
 			_putchar(la);
 		_putchar('\n');
+		return (0);
 	}
 }

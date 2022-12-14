@@ -18,8 +18,7 @@ void times_table(void)
 		{
 			rep = a * b;
 			if (b == 0)
-			{
-				_putchar(',')
+			{i
 				_putchar('0' +  rep);
 			}
 			else if (rep < 10)
@@ -29,8 +28,14 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(',');
+				_putchar('0' + rep / 10);
+				_putchar('0' + rep % 10);
+			}
+
+			if (b < 9)
+			{
 				_putchar(' ');
+				_putchar(',');
 			}
 			b++;
 		}

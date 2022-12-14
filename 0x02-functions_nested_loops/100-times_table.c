@@ -7,7 +7,7 @@
  */
 
 void print_time_table(int n)
-
+print_time_table;
 {
 	int num, mult, prod;
 
